@@ -131,19 +131,19 @@ import numpy as np
 # dest_and = cv2.bitwise_and(star, squares, mask = None)
 # cv2.imshow('Bitwise And', dest_and)
 # if cv2.waitKey(0) & 0xff == 27:
-#  cv2.destroyAllWindows()
-
-# 10. Побитовая операция ИЛИ
+#     cv2.destroyAllWindows()
+#
+# # 10. Побитовая операция ИЛИ
 # star = cv2.imread('star.png')
 # squares = cv2.imread('squares.png')
 # dest_or = cv2.bitwise_or(star, squares, mask = None)
 #
 # cv2.imshow('Bitwise OR', dest_or)
-
+#
 # if cv2.waitKey(0) & 0xff == 27:
 #  cv2.destroyAllWindows()
-
-# 11. Побитовая операция XOR
+#
+# # 11. Побитовая операция XOR
 # star = cv2.imread('star.png')
 # squares = cv2.imread('squares.png')
 # dest_not1 = cv2.bitwise_not(star, mask = None)
