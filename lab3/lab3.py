@@ -6,7 +6,6 @@ def generate_data(n_points=100, noise_level=0.15, seed=42) -> dict:
     np.random.seed(seed)
     datasets = {}
 
-    # Конфигурация линий
     configs = [
         {'name': 'line_1', 'type': 'linear', 'params': (2, 1)},          # k, b
         {'name': 'line_2', 'type': 'linear', 'params': (-0.5, 5)},       # k, b
